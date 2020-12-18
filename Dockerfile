@@ -9,4 +9,4 @@ RUN python3 -m pip install --upgrade pip && python3 -m pip install --upgrade tab
 CMD ["sh", "-c", "tabpy"]
 
 # deploy models
-RUN tabpy-deploy-models
+#RUN tabpy-deploy-models
